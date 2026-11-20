@@ -1,0 +1,7 @@
+{
+  "name": "@tavardt-mx/tls-certificate-watchdog",
+  "version": "1.0.0",
+  "description": "Monitoreo automatizado de expiración de certificados SSL/TLS y cumplimiento técnico bajo la LFPDPPP en México.",
+  "license": "MIT",
+  "author": "TAVARDT México (https://ag.tavardt.com/mx/)"
+}
