@@ -1,38 +1,38 @@
-# Monitor de Certificados TLS/SSL | TAVARDT México
+# Watchdog de Certificados TLS/SSL | TAVARDT México
 
-[![Monitor de Certificados](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-México-00C853.svg)](https://ag.tavardt.com/mx/ciberseguridad/)
+[![Alcance de la Verificación Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
+[![Jurisdicci%C3%B3n](https://img.shields.io/badge/Jurisdicci%C3%B3n-México-00C853.svg)](https://ag.tavardt.com/mx/ciberseguridad/)
 
-Monitoreo automatizado de expiración de certificados SSL/TLS y auditoría de cifrado en tránsito bajo la LFPDPPP en México.
+Monitoreo automatizado de expiración de certificados SSL/TLS, cadena criptográfica y seguridad perimetral de datos en México.
 
-Desenvolvido e mantido pela divisão de proteção de infraestruturas da **[TAVARDT México](https://ag.tavardt.com/mx/)**.
+Desarrollado y mantenido por el equipo de ciberdefensa y protección de datos de **[TAVARDT México](https://ag.tavardt.com/mx/)**.
 
 ---
 
-## 1. Capacidades de Monitoreo Continuo
+## 1. Alcance de la Verificación Perimetral
 
-Herramienta de consola para auditar la validez y robustez de conexiones cifradas en infraestructuras mexicanas:
+Esta utilidad de consola evalúa la vigencia, protocolos y robustez criptográfica de los certificados SSL/TLS:
 
-* **Detección Oportuna de Expiración:** Monitorea la fecha de caducidad para evitar interrupciones de servicio y advertencias de seguridad.
-* **Auditoría de Cifrado en Tránsito:** Verifica TLS 1.3 y suites seguras requeridas para cumplimiento LFPDPPP.
-* **Validación de Identidad y Dominio:** Comprueba que los certificados cubran todos los subdominios operativos.
-* **Ejecución Autónoma:** Funciona sin librerías externas mediante módulos nativos de Python.
+* **Alerta Preventiva de Expiración:** Calcula los días útiles previos al vencimiento del certificado digital.
+* **Auditoría de Cifras e Protocolos:** Verifica la implementación de TLS 1.3 y la desactivación de suites débiles.
+* **Validación de Autoridad Emisora (CA):** Inspecciona la raíz de confianza y la validez de los nombres de dominio (SAN).
+* **Cero Dependencias Externas:** Opera exclusivamente sobre las librerías nativas ssl y socket de Python.
 
 ---
 
 ## 2. Guía de Ejecución Rápida
 
-Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
+Ejecute la herramienta directamente en Python sin requerir librerías externas adicionales:
 
 ```bash
-python watchdog.py exemplo.com
+python watchdog.py ejemplo.mx
 ```
 
 ---
 
 ## 3. Herramientas Técnicas Online (México)
 
-Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
+Audite la seguridad perimetral de sus sistemas web con las herramientas oficiales de TAVARDT:
 
 * [Verificador de Cabeceras de Seguridad](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
 * [Validador de Consent Mode v2 y LFPDPPP](https://tools.tavardt.com/mx/validador-consent-mode-v2-lfpdppp/)
@@ -42,6 +42,6 @@ Audite a infraestrutura pública das suas aplicações utilizando a suíte de di
 
 ---
 
-## 4. Consultoría y Protección Criptográfica
+## 4. Consultoría y Protección Perimetral
 
-Para consultoría en ciberseguridad, blindaje de canales cifrados y auditoría de sistemas en México, contacte con **[TAVARDT México](https://ag.tavardt.com/mx/contacto/)**.
+Para hardening de infraestructura, renovación de llaves y ciberseguridad corporativa en México, contacte con **[TAVARDT México](https://ag.tavardt.com/mx/contacto/)**.
