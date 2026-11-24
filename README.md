@@ -1,4 +1,4 @@
-# Watchdog de Certificados TLS/SSL | TAVARDT México
+# Watchdog de Certificados TLS/SSL
 
 [![Alcance de la Verificación Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
 Monitoreo automatizado de expiración de certificados SSL/TLS, cadena criptográfica y seguridad perimetral de datos en México.
@@ -43,3 +43,7 @@ Audite la seguridad perimetral de sus sistemas web con las herramientas oficiale
 ## 4. Consultoría y Protección Perimetral
 
 Para hardening de infraestructura, renovación de llaves y ciberseguridad corporativa en México, contacte con **TAVARDT México**.
+
+***
+
+© 2026 TAVARDT. Todos los derechos reservados.
