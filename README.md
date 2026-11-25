@@ -1,6 +1,9 @@
 # Watchdog de Certificados TLS/SSL
 
+[![Licencia: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Alcance de la Verificación Perimetral](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/mx/analisis-cabeceras-seguridad/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 Monitoreo automatizado de expiración de certificados SSL/TLS, cadena criptográfica y seguridad perimetral de datos en México.
 
 Desarrollado y mantenido por el equipo de ciberdefensa y protección de datos de **TAVARDT**.
@@ -51,6 +54,11 @@ Para hardening de infraestructura, renovación de llaves y ciberseguridad corpor
 * **Portal Corporativo:** https://ag.tavardt.com/mx/
 * **Suite de Diagnósticos:** https://tools.tavardt.com/mx/
 * **Contacto Técnico:** https://ag.tavardt.com/mx/contacto/
+
+***
+
+### Licencia
+Distribuido bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para más detalles.
 
 ***
 
